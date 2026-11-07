@@ -1,10 +1,10 @@
-workflows:
+Workflows:
   android-apk:
-    name: Build Android APK (FamRuta)
+    name: Build Android APK (FamRuta)[span_1](start_span)[span_1](end_span)
     max_build_duration: 30
-    instance_type: linux_x2
+    instance_type: linux
     environment:
-      java: 17
+      java: 17[span_2](start_span)[span_2](end_span)
     triggering:
       events:
         - push
